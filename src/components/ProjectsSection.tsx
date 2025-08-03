@@ -27,7 +27,7 @@ export default function ProjectsSection() {
             <MotionWrapper key={project.title} delay={index * 0.2}>
               <GlassCard className="group overflow-hidden dark:border-purple-500/10 h-full flex flex-col">
                 <CardHeader className="bg-gradient-to-r from-purple-500/5 to-pink-500/5">
-                  <CardTitle className="text-center md:text-left group-hover:text-purple-500 transition-colors duration-300">
+                  <CardTitle className="text-center md:text-left group-hover:text-cyan-500 transition-colors duration-300">
                     {project.title}
                   </CardTitle>
                 </CardHeader>
@@ -52,7 +52,7 @@ export default function ProjectsSection() {
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center text-sm text-muted-foreground hover:text-purple-500 transition-colors group/link pt-8"
+                    className="flex items-center text-sm text-muted-foreground hover:text-cyan-500 transition-colors group/link pt-8"
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                   >
