@@ -1,66 +1,96 @@
 export const personalInfo = {
-  name: "Lorem Ipsum",
-  location: "Dolor Sit Amet",
-  email: "lorem@ipsum.com",
-  github: "https://github.com/loremipsum",
-  linkedin: "https://linkedin.com/in/loremipsum",
+  name: "Rafika Khatun",
+  location: "kolkata,west Bengal, India",
+  email: "rafikakhatun607@gmail.com",
+  github: "https://github.com/rafikakhatun",
+  linkedin: "https://www.linkedin.com/in/rafika-khatun-7937bb285/",
   profilePicture: "/profile.jpeg",
   heroDescription:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    `🚀 Passionate frontend developer with a strong foundation in modern web technologies like HTML, CSS, JavaScript, React, and Tailwind CSS. I thrive on turning complex design concepts into clean, responsive, and user-friendly interfaces. With a sharp eye for detail and a creative mindset, I blend aesthetics with performance to build seamless web experiences.My approach combines continuous learning, adaptability, and a love for intuitive UI/UX. Whether working independently or collaborating in a team, I’m driven by the challenge to craft elegant, scalable solutions that leave a lasting impact
+`
 };
 
 export const workExperience = [
   {
-    company: "Lorem Ipsum Corp",
-    location: "Lorem City",
-    position: "Lorem Engineer",
-    period: "Jan 2020 - Present",
+    company: "CodeCraft Web Solutions",
+    location: "Kolkata, India",
+    position: "Frontend Developer Intern",
+    period: "March 2024 – June 2024",
     achievements: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse.",
-      "Excepteur sint occaecat cupidatat non proident.",
-      "Sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "Curabitur pretium tincidunt lacus. Nulla gravida orci a odio.",
+      "Built responsive UI components using React.js and Tailwind CSS.",
+      "Worked with senior developers to implement form validation with JavaScript.",
+      "Participated in daily standups, sprint planning, and team code reviews.",
+      "Contributed to landing page designs and interactive UI elements.",
+      "Learned Git/GitHub workflows and deployed projects via Vercel.",
     ],
   },
   {
-    company: "Dolor Sit Amet",
-    location: "Ipsumville",
-    position: "Software Developer",
-    period: "Feb 2019 - Jan 2020",
+    company: "Pixel Bridge Technologies",
+    location: "Remote (India)",
+    position: "Junior Frontend Developer",
+    period: "July 2024 – Present",
     achievements: [
-      "Morbi in sem quis dui placerat ornare.",
-      "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam.",
+      "Created reusable components for internal dashboard using Astro.js.",
+      "Collaborated with design team to convert Figma mockups into live code.",
+      "Maintained consistency in design system using Tailwind utility classes.",
+      "Optimized website speed and ensured SEO best practices.",
+      "Integrated third-party APIs and dynamic content using Fetch API.",
     ],
   },
   {
-    company: "Consectetur Inc.",
-    location: "Adipiscing, Ipsum",
-    position: "Intern",
-    period: "Jun 2018 - Feb 2019",
+    company: "Self Projects & Freelance",
+    location: "Remote",
+    position: "Frontend Developer",
+    period: "Jan 2024 – Present",
     achievements: [
-      "Praesent dapibus, neque id cursus faucibus.",
-      "Fusce feugiat malesuada odio.",
+      "Designed and developed personal portfolio site with Astro and Tailwind CSS.",
+      "Cloned modern landing pages and templates to build UI skills.",
+      "Built mini projects like Todo App, Weather App, and Form Validation projects.",
+      "Published code on GitHub and deployed via Vercel/Netlify.",
+      "Consistently learning full-stack (MERN) technologies and open-source contribution.",
     ],
   },
 ];
 
+
 export const education = [
   {
-    institution: "Lorem Ipsum University",
-    location: "Lorem City",
-    degree: "BSc Lorem Ipsum",
-    period: "2015 - 2019",
+    institution: "Amity University Online",
+    location: "Noida, Uttar Pradesh, India",
+    degree: "Master of Computer Applications (MCA)",
+    period: "2024 – 2026",
     achievements: [
-      "President of Lorem Ipsum Club",
-      "Organized multiple lorem events",
-      "Represented university in national competitions.",
-      "Graduated with honors.",
+      "Focused on Web Development, Data Structures, and Software Engineering.",
+      "Worked on frontend and full-stack academic projects.",
+      "Completed bridge course due to non-technical background.",
+      "Actively participated in tech workshops and coding sessions.",
+    ],
+  },
+  {
+    institution: "Netaji Subhas Open University",
+    location: "Kolkata, West Bengal, India",
+    degree: "Master of Arts (MA) in Political Science",
+    period: "2020 – 2022",
+    achievements: [
+      "Completed post-graduation with strong academic performance.",
+      "Engaged in research and public policy analysis.",
+      "Developed analytical and presentation skills.",
+    ],
+  },
+  {
+    institution: "Vidyanagar College (Under University of Calcutta)",
+    location: "Kolkata, West Bengal, India",
+    degree: "Bachelor of Arts (BA) in Political Science",
+    period: "2017 – 2020",
+    achievements: [
+      "Studied Political Theory, International Relations, and Indian Constitution.",
+      "Volunteered in college cultural and awareness programs.",
+      "Built strong foundation in social analysis and communication.",
     ],
   },
 ];
+
+
 export const skills = {
   programmingLanguages: [
     "LoremLang",
@@ -95,77 +125,63 @@ export const skills = {
 
 export const projects = [
   {
-    title: "Lorem Ipsum Project",
-    github: "https://github.com/loremipsum/project",
+    title: "Apna College Landing Page (Clone)",
+    github: "https://github.com/rafikakhatun/apna-college-clone",
     description: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse.",
-      "Excepteur sint occaecat cupidatat non proident.",
+      "Cloned the official Apna College homepage using HTML and Tailwind CSS.",
+      "Responsive layout with proper sectioning: navbar, hero, courses, testimonials, footer.",
+      "Used utility-first classes to maintain clean and scalable styling.",
+      "Ensured mobile responsiveness and consistent design aesthetics.",
     ],
   },
   {
-    title: "Dolor Sit Amet App",
-    github: "https://github.com/loremipsum/dolorapp",
+    title: "iPhone Landing Page UI",
+    github: "https://github.com/rafikakhatun/iphone-landind-page",
     description: [
-      "Morbi in sem quis dui placerat ornare.",
-      "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam.",
-      "Praesent dapibus, neque id cursus faucibus.",
-      "Fusce feugiat malesuada odio.",
-      "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.",
+      "Created a sleek and modern iPhone product landing page with Tailwind CSS.",
+      "Showcased product features with clean layout and Apple-style minimal UI.",
+      "Included scroll animations, call-to-action buttons, and a responsive hero section.",
+      "Built to mimic real Apple product marketing page design standards.",
     ],
   },
 ];
 
+
 export const awards = [
   {
-    name: "Lorem Ipsum Award",
-    issuer: "Lorem Organization",
-    date: "Jan 2020",
-    type: "International",
-    position: "First Place",
+    name: "Frontend Design Challenge",
+    issuer: "CodeCraft Web Community",
+    date: "April 2024",
+    type: "Online Competition",
+    position: "Top 5 Finalist",
   },
   {
-    name: "Dolor Sit Amet Prize",
-    issuer: "Ipsum Foundation",
-    date: "Feb 2021",
-    type: "National",
-    position: "Runner-up",
-  },
-  {
-    name: "Consectetur Hackathon",
-    issuer: "Adipiscing Org",
-    date: "Mar 2022",
-    type: "National",
+    name: "UI/UX Web Design Contest",
+    issuer: "DevDesign Club (Amity University)",
+    date: "March 2024",
+    type: "University Level",
     position: "Winner",
   },
   {
-    name: "Vestibulum Event",
-    issuer: "Vestibulum College",
-    date: "Apr 2022",
+    name: "JavaScript Logic Sprint",
+    issuer: "JS India Community",
+    date: "February 2024",
     type: "National",
-    position: "First Prize",
+    position: "Top Performer",
   },
   {
-    name: "Curabitur Hackfest",
-    issuer: "Curabitur Institute",
-    date: "May 2022",
-    type: "National",
-    position: "Second Prize",
+    name: "Hack4Web Hackathon",
+    issuer: "Tech & Code India",
+    date: "January 2024",
+    type: "Online Hackathon",
+    position: "Runner-up",
   },
   {
-    name: "Praesent Hacks",
-    issuer: "Praesent Group",
-    date: "Jun 2022",
-    type: "National",
-    position: "Second Runner-up",
-  },
-  {
-    name: "Fusce Hack",
-    issuer: "Fusce Club",
-    date: "Jul 2022",
-    type: "National",
-    position: "Most Impactful Hack",
+    name: "Best Portfolio Showcase",
+    issuer: "Frontend Mentor Group",
+    date: "June 2024",
+    type: "Online Recognition",
+    position: "Featured Project",
   },
 ];
+
