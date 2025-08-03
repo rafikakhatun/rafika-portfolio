@@ -93,33 +93,28 @@ export const education = [
 
 export const skills = {
   programmingLanguages: [
-    "LoremLang",
-    "IpsumScript",
-    "DolorLang",
-    "SitLang",
-    "AmetLang",
-    "ConsecteturLang",
+    "JavaScript",
+    "TypeScript",
+    
   ],
   frontendDevelopment: [
-    "LoremJS",
-    "IpsumJS",
-    "Dolor Native",
-    "Sit UI",
-    "Amet CSS",
     "HTML",
     "CSS",
+    "Tailwind CSS",
+    "Bootstrap",
+    "React.js",
+   
   ],
-  backendDevelopment: ["LoremNode", "IpsumExpress"],
-  databaseAndStorage: ["LoremDB", "IpsumORM"],
-  cloudAndDevOps: ["LoremCloud"],
+  backendDevelopment: [ "Express.js"],
+  databaseAndStorage: ["MongoDB"],
   toolsAndServices: [
-    "LoremAuth",
-    "IpsumCMS",
-    "DolorAnalytics",
-    "SitValidator",
-    "AmetMonitor",
-    "ConsecteturPanel",
-    "AdipiscingTrigger",
+    "Git",
+    "GitHub",
+    "	VS Code",
+    "Figma",
+    "Photoshop",
+    "Netlify",
+  
   ],
 };
 
